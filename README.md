@@ -28,6 +28,12 @@ Sections that are added only when there is something to list, so the site never 
 - **Teaching** — courses and learning materials.
 - **People** — added when the lab has more than one member.
 
+## Network footer and social card
+
+Every page ends with the network footer: the four sites in the same order (Urban Science AI Lab, UrbanProbe, XUrbanAI, City Computing Collective), each with its role, and the current site marked. Keep the order and wording identical across the four repositories.
+
+`assets/og.png` is the 1200×630 card shown when a page is shared; the `<head>` of each page points to it.
+
 ## Editing
 
 Pages share the same header, footer, and `<head>` block. When changing them, change every page. Navigation marks the current page with `aria-current="page"`. Direction anchors on `research.html` are `#representation`, `#perception`, `#mobility`, `#climate`, `#agents`; the index links to them.
