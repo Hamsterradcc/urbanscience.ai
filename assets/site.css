@@ -39,6 +39,9 @@ main{max-width:var(--max);margin:auto;padding:0 var(--pad)}
 .label{font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:var(--blue);font-weight:850;margin-bottom:12px}
 .lead{font-size:clamp(18px,2.2vw,24px);color:var(--muted);max-width:760px}
 .intro{color:var(--muted);max-width:760px;margin:0 0 34px;font-size:18px}
+.byline{margin-top:16px;font-size:14px;color:var(--muted)}
+.byline a{color:var(--navy);font-weight:700;text-decoration:none;border-bottom:1px solid var(--line-2)}
+.byline a:hover{border-color:var(--blue);color:var(--blue)}
 
 /* buttons */
 .button{display:inline-flex;align-items:center;gap:8px;background:var(--navy);color:#fff;padding:12px 19px;border-radius:999px;text-decoration:none;font-weight:750;font-size:14px;border:1px solid var(--navy);transition:.18s ease}
