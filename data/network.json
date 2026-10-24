@@ -1,0 +1,26 @@
+{
+  "$comment": "Maps each research direction to the shared research themes of the City Computing Collective (data/taxonomy.json there).",
+  "directions": {
+    "representation": [
+      "urban-ai",
+      "sensing"
+    ],
+    "perception": [
+      "sensing",
+      "built-environment",
+      "health-equity"
+    ],
+    "mobility": [
+      "mobility",
+      "health-equity"
+    ],
+    "climate": [
+      "climate",
+      "health-equity"
+    ],
+    "agents": [
+      "urban-ai",
+      "governance"
+    ]
+  }
+}
