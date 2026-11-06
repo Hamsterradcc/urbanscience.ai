@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Contact
+    url: https://yuxuancai.com
+    about: Enquiries about research collaboration and student projects.
+  - name: Community discussion
+    url: https://github.com/citycomputingcollective/citycomputingcollective.github.io/discussions
+    about: Questions and ideas for the wider community go to the City Computing Collective.
