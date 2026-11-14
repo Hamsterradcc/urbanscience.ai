@@ -1,0 +1,87 @@
+{
+  "week": "2026-W42",
+  "start": "2026-10-12",
+  "end": "2026-10-18",
+  "generated": "2026-10-23",
+  "counts": {
+    "discussions": 4,
+    "releases": 0
+  },
+  "discussions": [
+    {
+      "category": "Announcements",
+      "items": [
+        {
+          "title": "Welcome to the example community",
+          "url": "https://citycomputingcollective.com/post.html?n=16",
+          "date": "2026-10-16",
+          "themes": []
+        }
+      ]
+    },
+    {
+      "category": "Find Collaborators",
+      "items": [
+        {
+          "title": "Measuring street-level heat exposure with low-cost sensors",
+          "url": "https://citycomputingcollective.com/post.html?n=15",
+          "date": "2026-10-12",
+          "themes": [
+            "climate",
+            "sensing",
+            "health-equity"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Q&A",
+      "items": [
+        {
+          "title": "Which CRS should I use for a multi-city street network comparison?",
+          "url": "https://citycomputingcollective.com/post.html?n=17",
+          "date": "2026-10-16",
+          "themes": [
+            "sensing",
+            "built-environment"
+          ]
+        },
+        {
+          "title": "How do you validate perception scores from street-view images?",
+          "url": "https://citycomputingcollective.com/post.html?n=14",
+          "date": "2026-10-14",
+          "themes": [
+            "sensing",
+            "urban-ai"
+          ]
+        }
+      ]
+    }
+  ],
+  "unanswered": [
+    {
+      "title": "Which CRS should I use for a multi-city street network comparison?",
+      "url": "https://citycomputingcollective.com/post.html?n=17",
+      "date": "2026-10-16T08:00:00Z"
+    }
+  ],
+  "closing": [
+    {
+      "title": "Workshop on urban sensing and open data: call for papers",
+      "url": "https://citycomputingcollective.com/post.html?n=13",
+      "date": "2026-10-28",
+      "label": "Call for papers"
+    }
+  ],
+  "events": [
+    {
+      "title": "Methods clinic: causal designs for urban interventions",
+      "url": "https://citycomputingcollective.com/post.html?n=12",
+      "date": "2026-11-05",
+      "label": "Online"
+    }
+  ],
+  "releases": [],
+  "closingDays": 21,
+  "eventDays": 14
+}

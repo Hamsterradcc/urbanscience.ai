@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Urban Science AI Lab: weekly network digest</title>
+<link>https://urbanscience.ai/digest.html</link>
+<description>One summary for each week with activity: new discussions, questions waiting for an answer, open calls, events, and releases.</description>
+<language>en</language>
+<atom:link href="https://urbanscience.ai/feeds/digest.xml" rel="self" type="application/rss+xml"/>
+</channel>
+</rss>

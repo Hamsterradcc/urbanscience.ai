@@ -1,0 +1,48 @@
+{
+  "generated": null,
+  "total": 0,
+  "themes": [
+    {
+      "slug": "mobility",
+      "label": "Mobility & Transportation"
+    },
+    {
+      "slug": "built-environment",
+      "label": "Built Environment & Land Use"
+    },
+    {
+      "slug": "housing",
+      "label": "Housing & Urban Economics"
+    },
+    {
+      "slug": "climate",
+      "label": "Climate, Energy & Resilience"
+    },
+    {
+      "slug": "health-equity",
+      "label": "Health, Equity & Accessibility"
+    },
+    {
+      "slug": "sensing",
+      "label": "Urban Sensing & Spatial Data"
+    },
+    {
+      "slug": "governance",
+      "label": "Governance & Participation"
+    },
+    {
+      "slug": "urban-ai",
+      "label": "Urban AI & Simulation"
+    }
+  ],
+  "stats": {
+    "discussions": 0,
+    "people": 0,
+    "releases": {
+      "xurbanai": 0,
+      "urbanprobe": 0
+    }
+  },
+  "upcoming": [],
+  "items": []
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Urban Science AI Lab: Urban AI &amp; Simulation</title>
+<link>https://urbanscience.ai/activity.html?theme=urban-ai</link>
+<description>Discussions on Urban AI &amp; Simulation from the City Computing Collective, and releases on XUrbanAI and UrbanProbe tagged with this theme.</description>
+<language>en</language>
+<atom:link href="https://urbanscience.ai/feeds/theme-urban-ai.xml" rel="self" type="application/rss+xml"/>
+</channel>
+</rss>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Urban Science AI Lab: Mobility, accessibility &amp; inequality</title>
+<link>https://urbanscience.ai/research.html#mobility</link>
+<description>Discussions and releases on the themes of this research direction: Mobility &amp; Transportation, Health, Equity &amp; Accessibility, Housing &amp; Urban Economics.</description>
+<language>en</language>
+<atom:link href="https://urbanscience.ai/feeds/direction-mobility.xml" rel="self" type="application/rss+xml"/>
+</channel>
+</rss>
