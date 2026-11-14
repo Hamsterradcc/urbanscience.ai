@@ -1,5 +1,12 @@
 {
-  "$comment": "Maps each research direction to the shared research themes of the City Computing Collective (data/taxonomy.json there).",
+  "$comment": "Maps each research direction to the shared research themes of the City Computing Collective (data/taxonomy.json there). Every theme must belong to at least one direction; scripts/build_network.py fails when one does not. Housing is under mobility because affordability and displacement are questions about who can reach what.",
+  "labels": {
+    "representation": "Urban representation & multimodal learning",
+    "perception": "Human-centered sensing & perception",
+    "mobility": "Mobility, accessibility & inequality",
+    "climate": "Climate resilience & environmental justice",
+    "agents": "Urban agents, simulation & decision support"
+  },
   "directions": {
     "representation": [
       "urban-ai",
@@ -12,7 +19,8 @@
     ],
     "mobility": [
       "mobility",
-      "health-equity"
+      "health-equity",
+      "housing"
     ],
     "climate": [
       "climate",

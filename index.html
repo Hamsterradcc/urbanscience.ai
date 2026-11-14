@@ -18,7 +18,11 @@
   <meta property="og:image:alt" content="Urban Science AI Lab: studying cities as dynamic human systems.">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1830'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%23fbfcff' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='8' fill='%232459e0'/%3E%3C/svg%3E">
+  <link rel="alternate" type="application/rss+xml" title="Urban Science AI Lab: everything in the network" href="https://urbanscience.ai/feeds/network.xml">
+  <link rel="alternate" type="application/rss+xml" title="Urban Science AI Lab: weekly network digest" href="https://urbanscience.ai/feeds/digest.xml">
+  <link rel="stylesheet" href="assets/follow.css">
   <link rel="stylesheet" href="assets/site.css">
+  <noscript><style>[data-follow]{display:none!important}</style></noscript>
   <script type="application/ld+json">
 {
     "@context": "https://schema.org",
@@ -56,13 +60,17 @@
   <header>
     <div class="nav">
       <a class="brand" href="index.html" aria-current="page"><span class="brand-mark" aria-hidden="true"></span>Urban Science AI Lab</a>
-      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
       <nav id="site-nav" aria-label="Primary">
         <a href="research.html">Research</a>
+        <a href="activity.html">Activity</a>
         <a href="#approach">Approach</a>
         <a href="#platforms">Platforms</a>
         <a class="cta" href="#contact">Work with us</a>
       </nav>
+      <div class="nav-tools">
+        <a class="nav-bell" href="follow.html" aria-label="Follow updates" title="Follow updates"><svg class="follow-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></a>
+        <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      </div>
     </div>
   </header>
 
@@ -76,6 +84,7 @@
         <div class="actions">
           <a class="button" href="research.html">Research agenda</a>
           <a class="button ghost" href="#platforms">Platforms</a>
+          <a class="button ghost" href="follow.html">Follow updates</a>
         </div>
       </div>
       <div class="orbit" aria-hidden="true">
@@ -104,9 +113,15 @@
       </div>
     </section>
 
-    <div class="net-stats" data-network-stats hidden>
+    <div class="net-stats" data-network-stats>
       <p class="label">Across the network</p>
-      <div class="net-stat-row" data-slot="cells"></div>
+      <div class="net-stat-row" data-slot="cells" hidden></div>
+      <p class="net-follow" data-slot="follow" hidden><button type="button" class="follow-btn" data-follow data-follow-title="Everything in the network" data-follow-what="Every new discussion and release from the three sites." data-follow-feed="feeds/network.xml" aria-label="Follow the network"><svg class="follow-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span>Follow the network</span></button> <a href="activity.html">See all activity</a></p>
+      <div class="empty-state" data-slot="empty">
+        <div><strong>Nothing has been published on the network yet.</strong><p>Be told when the first one is added.</p></div>
+        <button type="button" class="follow-btn" data-follow data-follow-title="Everything in the network" data-follow-what="Every new discussion and release from the three sites." data-follow-feed="feeds/network.xml" aria-label="Get notified"><svg class="follow-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span>Get notified</span></button>
+        <noscript><a href="follow.html">See all ways to follow</a></noscript>
+      </div>
     </div>
 
     <section id="agenda">
@@ -156,6 +171,7 @@
         <a class="route" href="https://github.com/citycomputingcollective/citycomputingcollective.github.io/discussions/new?category=find-collaborators"><span class="route-kind">Researchers and practitioners</span><strong>Propose a collaboration</strong><span>A structured post with the question, place, data, and the expertise you are looking for.</span><span class="route-go">Post a collaboration request ↗</span></a>
         <a class="route" href="https://github.com/Hamsterradcc/urbanprobe.com/issues/new/choose"><span class="route-kind">Data and indicators</span><strong>Contribute or request data</strong><span>Propose a documented dataset, indicator, or method for UrbanProbe, or ask for data you need.</span><span class="route-go">Open UrbanProbe forms ↗</span></a>
         <a class="route" href="https://github.com/Hamsterradcc/xurbanai.com/issues/new/choose"><span class="route-kind">Models and benchmarks</span><strong>Submit a model, agent, or result</strong><span>Propose an entry or a leaderboard result for XUrbanAI, evaluated against the published standard.</span><span class="route-go">Open XUrbanAI forms ↗</span></a>
+        <a class="route" href="follow.html"><span class="route-kind">Updates only</span><strong>Get updates</strong><span>Follow the weekly digest, a research direction or a theme. You choose email, a feed reader, a calendar or GitHub.</span><span class="route-go">Choose what to follow →</span></a>
         <a class="route" href="https://yuxuancai.com"><span class="route-kind">Everything else</span><strong>Contact the lab directly</strong><span>Press, partnerships, teaching, or anything that does not fit above.</span><span class="route-go">Contact →</span></a>
       </div>
     </section>
@@ -171,9 +187,10 @@
     </ul>
     <div class="footer-base">
       <span>&copy; 2026 Urban Science AI Lab &middot; A project by <a href="https://yuxuancai.com">Yuxuan Cai</a></span>
-      <div class="links"><a href="research.html">Research agenda</a><a href="https://github.com/Hamsterradcc/urbanscience.ai">Repository</a></div>
+      <div class="links"><a href="research.html">Research agenda</a><a href="activity.html">Activity</a><a href="follow.html">Follow</a><a href="https://github.com/Hamsterradcc/urbanscience.ai">Repository</a></div>
     </div>
   </footer>
+  <script src="assets/follow.js"></script>
   <script src="assets/site.js"></script>
   <script src="assets/network.js"></script>
 </body>

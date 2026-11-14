@@ -18,20 +18,33 @@
   <meta property="og:image:alt" content="Urban Science AI Lab: studying cities as dynamic human systems.">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b1830'/%3E%3Ccircle cx='32' cy='32' r='17' fill='none' stroke='%23fbfcff' stroke-width='4'/%3E%3Ccircle cx='32' cy='32' r='8' fill='%232459e0'/%3E%3C/svg%3E">
+  <link rel="alternate" type="application/rss+xml" title="Urban Science AI Lab: everything in the network" href="https://urbanscience.ai/feeds/network.xml">
+  <link rel="alternate" type="application/rss+xml" title="Urban Science AI Lab: weekly network digest" href="https://urbanscience.ai/feeds/digest.xml">
+  <link rel="alternate" type="application/rss+xml" title="Urban Science AI Lab: Urban representation &amp; multimodal learning" href="https://urbanscience.ai/feeds/direction-representation.xml">
+  <link rel="alternate" type="application/rss+xml" title="Urban Science AI Lab: Human-centered sensing &amp; perception" href="https://urbanscience.ai/feeds/direction-perception.xml">
+  <link rel="alternate" type="application/rss+xml" title="Urban Science AI Lab: Mobility, accessibility &amp; inequality" href="https://urbanscience.ai/feeds/direction-mobility.xml">
+  <link rel="alternate" type="application/rss+xml" title="Urban Science AI Lab: Climate resilience &amp; environmental justice" href="https://urbanscience.ai/feeds/direction-climate.xml">
+  <link rel="alternate" type="application/rss+xml" title="Urban Science AI Lab: Urban agents, simulation &amp; decision support" href="https://urbanscience.ai/feeds/direction-agents.xml">
+  <link rel="stylesheet" href="assets/follow.css">
   <link rel="stylesheet" href="assets/site.css">
+  <noscript><style>[data-follow]{display:none!important}</style></noscript>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
   <header>
     <div class="nav">
       <a class="brand" href="index.html"><span class="brand-mark" aria-hidden="true"></span>Urban Science AI Lab</a>
-      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
       <nav id="site-nav" aria-label="Primary">
         <a href="research.html" aria-current="page">Research</a>
+        <a href="activity.html">Activity</a>
         <a href="index.html#approach">Approach</a>
         <a href="index.html#platforms">Platforms</a>
         <a class="cta" href="index.html#contact">Work with us</a>
       </nav>
+      <div class="nav-tools">
+        <a class="nav-bell" href="follow.html" aria-label="Follow updates" title="Follow updates"><svg class="follow-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></a>
+        <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false" aria-controls="site-nav"><span></span><span></span><span></span></button>
+      </div>
     </div>
   </header>
 
@@ -52,6 +65,7 @@
       <aside class="note">
         <strong>How directions are used</strong>
         <p>Directions are the lab's organising categories. Data and indicators go to UrbanProbe; models, agents, and benchmarks go to XUrbanAI; open collaboration runs through the City Computing Collective.</p>
+        <p class="note-link"><a href="follow.html#directions">Follow a direction</a></p>
       </aside>
     </div>
 
@@ -71,9 +85,12 @@
       </div>
 
         <div class="net-panel" data-direction="representation">
-          <div class="net-head"><p class="label">On the network</p><span class="net-count" data-slot="count">Theme hubs</span></div>
+          <div class="net-head"><p class="label">On the network</p><button type="button" class="follow-btn" data-follow data-follow-title="Urban representation &amp; multimodal learning" data-follow-what="New discussions and releases on the themes of this research direction." data-follow-feed="feeds/direction-representation.xml" aria-label="Follow this direction: Urban representation &amp; multimodal learning"><svg class="follow-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span>Follow this direction</span></button></div>
+          <p class="net-count" data-slot="count" hidden></p>
           <ul class="net-list" data-slot="activity" hidden></ul>
-          <div class="hub-pills"><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=urban-ai">Urban AI & Simulation</a><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=sensing">Urban Sensing & Spatial Data</a></div>
+          <p class="net-empty" data-slot="empty">Nothing has been published on these themes yet. You can follow this direction to be told when the first item appears. <noscript><a href="follow.html">See how to follow</a>.</noscript></p>
+          <p class="net-hubs">Discussions and releases on these themes are collected in the City Computing Collective theme hubs:</p>
+          <div class="hub-pills"><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=urban-ai">Urban AI &amp; Simulation</a><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=sensing">Urban Sensing &amp; Spatial Data</a></div>
         </div>
     </section>
 
@@ -93,9 +110,12 @@
       </div>
 
         <div class="net-panel" data-direction="perception">
-          <div class="net-head"><p class="label">On the network</p><span class="net-count" data-slot="count">Theme hubs</span></div>
+          <div class="net-head"><p class="label">On the network</p><button type="button" class="follow-btn" data-follow data-follow-title="Human-centered sensing &amp; perception" data-follow-what="New discussions and releases on the themes of this research direction." data-follow-feed="feeds/direction-perception.xml" aria-label="Follow this direction: Human-centered sensing &amp; perception"><svg class="follow-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span>Follow this direction</span></button></div>
+          <p class="net-count" data-slot="count" hidden></p>
           <ul class="net-list" data-slot="activity" hidden></ul>
-          <div class="hub-pills"><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=sensing">Urban Sensing & Spatial Data</a><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=built-environment">Built Environment & Land Use</a><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=health-equity">Health, Equity & Accessibility</a></div>
+          <p class="net-empty" data-slot="empty">Nothing has been published on these themes yet. You can follow this direction to be told when the first item appears. <noscript><a href="follow.html">See how to follow</a>.</noscript></p>
+          <p class="net-hubs">Discussions and releases on these themes are collected in the City Computing Collective theme hubs:</p>
+          <div class="hub-pills"><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=sensing">Urban Sensing &amp; Spatial Data</a><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=built-environment">Built Environment &amp; Land Use</a><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=health-equity">Health, Equity &amp; Accessibility</a></div>
         </div>
     </section>
 
@@ -115,9 +135,12 @@
       </div>
 
         <div class="net-panel" data-direction="mobility">
-          <div class="net-head"><p class="label">On the network</p><span class="net-count" data-slot="count">Theme hubs</span></div>
+          <div class="net-head"><p class="label">On the network</p><button type="button" class="follow-btn" data-follow data-follow-title="Mobility, accessibility &amp; inequality" data-follow-what="New discussions and releases on the themes of this research direction." data-follow-feed="feeds/direction-mobility.xml" aria-label="Follow this direction: Mobility, accessibility &amp; inequality"><svg class="follow-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span>Follow this direction</span></button></div>
+          <p class="net-count" data-slot="count" hidden></p>
           <ul class="net-list" data-slot="activity" hidden></ul>
-          <div class="hub-pills"><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=mobility">Mobility & Transportation</a><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=health-equity">Health, Equity & Accessibility</a></div>
+          <p class="net-empty" data-slot="empty">Nothing has been published on these themes yet. You can follow this direction to be told when the first item appears. <noscript><a href="follow.html">See how to follow</a>.</noscript></p>
+          <p class="net-hubs">Discussions and releases on these themes are collected in the City Computing Collective theme hubs:</p>
+          <div class="hub-pills"><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=mobility">Mobility &amp; Transportation</a><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=health-equity">Health, Equity &amp; Accessibility</a><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=housing">Housing &amp; Urban Economics</a></div>
         </div>
     </section>
 
@@ -137,9 +160,12 @@
       </div>
 
         <div class="net-panel" data-direction="climate">
-          <div class="net-head"><p class="label">On the network</p><span class="net-count" data-slot="count">Theme hubs</span></div>
+          <div class="net-head"><p class="label">On the network</p><button type="button" class="follow-btn" data-follow data-follow-title="Climate resilience &amp; environmental justice" data-follow-what="New discussions and releases on the themes of this research direction." data-follow-feed="feeds/direction-climate.xml" aria-label="Follow this direction: Climate resilience &amp; environmental justice"><svg class="follow-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span>Follow this direction</span></button></div>
+          <p class="net-count" data-slot="count" hidden></p>
           <ul class="net-list" data-slot="activity" hidden></ul>
-          <div class="hub-pills"><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=climate">Climate, Energy & Resilience</a><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=health-equity">Health, Equity & Accessibility</a></div>
+          <p class="net-empty" data-slot="empty">Nothing has been published on these themes yet. You can follow this direction to be told when the first item appears. <noscript><a href="follow.html">See how to follow</a>.</noscript></p>
+          <p class="net-hubs">Discussions and releases on these themes are collected in the City Computing Collective theme hubs:</p>
+          <div class="hub-pills"><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=climate">Climate, Energy &amp; Resilience</a><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=health-equity">Health, Equity &amp; Accessibility</a></div>
         </div>
     </section>
 
@@ -159,9 +185,12 @@
       </div>
 
         <div class="net-panel" data-direction="agents">
-          <div class="net-head"><p class="label">On the network</p><span class="net-count" data-slot="count">Theme hubs</span></div>
+          <div class="net-head"><p class="label">On the network</p><button type="button" class="follow-btn" data-follow data-follow-title="Urban agents, simulation &amp; decision support" data-follow-what="New discussions and releases on the themes of this research direction." data-follow-feed="feeds/direction-agents.xml" aria-label="Follow this direction: Urban agents, simulation &amp; decision support"><svg class="follow-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg><span>Follow this direction</span></button></div>
+          <p class="net-count" data-slot="count" hidden></p>
           <ul class="net-list" data-slot="activity" hidden></ul>
-          <div class="hub-pills"><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=urban-ai">Urban AI & Simulation</a><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=governance">Governance & Participation</a></div>
+          <p class="net-empty" data-slot="empty">Nothing has been published on these themes yet. You can follow this direction to be told when the first item appears. <noscript><a href="follow.html">See how to follow</a>.</noscript></p>
+          <p class="net-hubs">Discussions and releases on these themes are collected in the City Computing Collective theme hubs:</p>
+          <div class="hub-pills"><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=urban-ai">Urban AI &amp; Simulation</a><a class="hub-pill" href="https://citycomputingcollective.com/theme.html?t=governance">Governance &amp; Participation</a></div>
         </div>
     </section>
 
@@ -175,6 +204,7 @@
         <div class="actions">
           <a class="button light" href="https://urbanprobe.com">UrbanProbe</a>
           <a class="button light" href="https://xurbanai.com">XUrbanAI</a>
+          <a class="button light" href="https://citycomputingcollective.com">City Computing Collective</a>
         </div>
       </div>
     </section>
@@ -190,9 +220,10 @@
     </ul>
     <div class="footer-base">
       <span>&copy; 2026 Urban Science AI Lab &middot; A project by <a href="https://yuxuancai.com">Yuxuan Cai</a></span>
-      <div class="links"><a href="research.html">Research agenda</a><a href="https://github.com/Hamsterradcc/urbanscience.ai">Repository</a></div>
+      <div class="links"><a href="research.html">Research agenda</a><a href="activity.html">Activity</a><a href="follow.html">Follow</a><a href="https://github.com/Hamsterradcc/urbanscience.ai">Repository</a></div>
     </div>
   </footer>
+  <script src="assets/follow.js"></script>
   <script src="assets/site.js"></script>
   <script src="assets/network.js"></script>
 </body>
